@@ -17,4 +17,4 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 3. Pull up your phone to your webcam and your model should appear! 
 
 ## Important Notes
-You will be able to change the scale of these models, but you will need to refresh the page every time you make any changes to this. 
+You will be able to change the scale of these models, but you will need to refresh the page every time you make any changes. 
