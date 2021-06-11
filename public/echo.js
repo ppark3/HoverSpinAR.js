@@ -1,7 +1,7 @@
 //const fetch = require("node-fetch");
 
 var echoDB;
-var API_KEY = 'ENTER YOUR API KEY HERE';
+var API_KEY = 'ENTER API KEY HERE';
 var db;
 var srcModel;
 var srcMarker;
@@ -70,12 +70,12 @@ function createModel(){
     tag.setAttribute("position", "0 0 0");
     if(scale){
         tag.setAttribute("scale", "" + scale + " " + scale + " " + scale);
-        let hoverHeight = (scale * 2) + 0.2
-        tag.setAttribute("animation", "property: position; from: 0 0.2 0; to: 0 " + scale + " 0; loop: true; dur: 1000; dir: alternate; easing: easeInOutSine");
+        let hoverHeight = (scale * 2) + 0.5;
+        tag.setAttribute("animation", "property: position; from: 0 0.5 0; to: 0 " + hoverHeight + " 0; loop: true; dur: 1000; dir: alternate; easing: easeInOutSine");
     }
     else{
         tag.setAttribute("scale", "0.5 0.5 0.5");
-        tag.setAttribute("animation", "property: position; from: 0 0.2 0; to: 0 1.2 0; loop: true; dur: 1000; dir: alternate; easing: easeInOutSine");
+        tag.setAttribute("animation", "property: position; from: 0 0.5 0; to: 0 1.5 0; loop: true; dur: 1000; dir: alternate; easing: easeInOutSine");
     }
     tag.setAttribute("gltf-model", srcModel);
     tag.setAttribute("animation__2", "property: rotation; to: 0 360 0; loop: true; dur: 3000; easing: linear");
