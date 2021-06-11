@@ -18,3 +18,6 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 
 ## Important Notes
 You will be able to change the scale of these models, but you will need to refresh the page every time you make any changes. 
+
+## DEMO
+![HoverSpinDemo](https://user-images.githubusercontent.com/31756724/121757903-2878d700-caed-11eb-989e-6767c0e857b5.gif)
